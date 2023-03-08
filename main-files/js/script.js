@@ -9,6 +9,6 @@ barMenu.addEventListener("click", function () {
     else {
         barMenu.firstElementChild.setAttribute("class", "svg-inline--fa fa-bars");
         menuBar.style.left = "-30rem";
-        console.log("hello world");
+        console.log("hello world !");
     }
 });
