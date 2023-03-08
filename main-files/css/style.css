@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 70rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin: 0 3rem 0 0;
+}
+.logo-bar-container {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu__items {
+    margin: 0 1rem;
+}
+.menu__links {
+    font-size: 0.8rem;
+    color: #000;
+    text-decoration: none;
+}
+.contact__btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #0050c8;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+}
+.header-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0 0;
+}
+.header-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+.text {
+    max-width: 80%;
+}
+.intro {
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.info {
+    margin: 1rem 0 2rem;
+    line-height: 2rem;
+}
+.header-links {
+    display: flex;
+}
+.links {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--clr);
+    padding: 0.8rem 0;
+    width: 10rem;
+    text-align: center;
+    margin: 0 1rem 0 0;
+    border-radius: 0.3rem;
+}
+.header-image {
+    flex-basis: 50%;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0 0;
+}
+.title {
+    text-align: center;
+    line-height: 2.5rem;
+    margin: 0 0 5rem;
+}
+.caption {
+    font-size: 1rem;
+    opacity: 0.5;
+    color: #000;
+    text-transform: uppercase;
+}
+.title-text {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.main-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-content {
+    flex-basis: 18rem;
+    text-align: center;
+    margin: 0 0 4rem;
+}
+.content-title {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin: 0 0 1rem;
+}
+.content-text {
+    font-size: 1.1rem;
+    color: #000;
+    opacity: 0.5;
+    line-height: 2rem;
+}
+.main-content-image {
+    max-width: 50%;
+}
+.content-image {
+    width: 100%;
+}
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F5BEA;
+    padding: 5rem 0;
+    margin: 5rem 0 0;
+}
+.comments-title-box {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    max-width: 43%;
+}
+.comments-title {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin: 0 0 1rem;
+}
+.comments-text {
+    line-height: 1.8rem;
+}
+.comments-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: center;
+    margin: 5rem 0 0;
+}
+.comments-box-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 30%;
+    background-color: #fff;
+    line-height: 1.7rem;
+    border-radius: 0.3rem;
+}
+.comments-box-text {
+    font-style: italic;
+    margin: 1rem 1rem 5rem;
+}
+.comments-caption {
+    opacity: 0.6;
+}
+.comments-box-caption {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 0 0;
+    border-top: 1px solid #00000020;
+    width: 100%;
+}
+.comments-images {
+    margin: 0 1rem 0;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0 0;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.portfolio-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0 0;
+}
+.portfolio-intro {
+    text-align: center;
+    line-height: 2.5rem;
+}
+.portfolio-caption {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.portfolio-text {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.portfolio-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: space-between;
+    margin: 5rem 0 0;
+}
+.portfolio-image-item {
+    margin: 1rem 0;
+    flex-basis: 21rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+.portfolio-image {
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    width: 100%;
+    background-color: #2C57E4;
+    margin: 3rem 0 0;
+    padding: 5rem 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #fff;
+}
+.footer-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+.footer-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.footer-btn {
+    outline: none;
+    border: none;
+    background-color: #2C57E4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom-item {
+    font-size: 0.8rem;
+    color: #000;
+    opacity: 0.5;
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .portfolio-image-container {
+        justify-content: center;
+    }
+    .portfolio-image {
+        margin: 0 1.5rem;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .contact {
+        display: none;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .logo {
+        margin: 0;
+    }
+    .header-intro {
+        flex-flow: row wrap;
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .header-image {
+        flex-basis: 100%;
+        order: -1;
+    }
+    .header-text-container {
+        margin: 5rem auto 0;
+        flex-basis: 100%;
+    }
+    .header-text {
+        text-align: center;
+    }
+    .text {
+        max-width: 100%;
+    }
+    .header-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .links {
+        margin: 0.5rem;
+    }
+    .comments-title-box {
+        max-width: 100%;
+    }
+    .comments-box {
+        justify-content: center;
+    }
+    .comments-box-items {
+        flex-basis: 20rem;
+        margin: 0.5rem;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-title {
+        margin: 0 0 3rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -30rem;
+        bottom: 0;
+        background-color: #2F5BEA;
+        flex-direction: column;
+        width: 15rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 100;
+        transition: 0.3s ease-in-out;
+    }
+    .menu__links {
+        color: #fff;
+        font-size: large;
+    }
+    .menu li {
+        margin: 1.5rem;
+    }
+    .logo-bar-container {
+        display: block;
+    }
+    .main-content {
+        flex-basis: 100%;
+    }
+    .logos {
+        justify-content: center;
+    }
+    .logo-image-item {
+        margin: 1rem 3rem;
+    }
+    .portfolio-image-container {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "flexbox-learning",
+  "version": "1.0.0",
+  "description": "In Progress ...",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flexbox"
+  ],
+  "author": "Cicada3301",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sweetalert2": "^11.7.2"
+  }
+}
