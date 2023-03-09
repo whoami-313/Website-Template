@@ -304,6 +304,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
 }
 .footer-bottom-item {
     font-size: 0.8rem;
@@ -314,12 +315,11 @@
     .container {
         max-width: 960px;
     }
-    .portfolio-image-container {
-        justify-content: center;
+    .portfolio-image-item {
+        flex-basis: 28rem;
     }
-    .portfolio-image {
-        margin: 0 1.5rem;
-        width: 100%;
+    .comments-box {
+        justify-content: space-evenly;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -379,6 +379,9 @@
         margin: 0 0 3rem;
         text-align: center;
     }
+    .portfolio-image-item {
+        flex-basis: 20.5rem;
+    }
 }
 @media only screen and (max-width: 768px) {
     .container {
@@ -408,20 +411,30 @@
         display: block;
     }
     .main-content {
-        flex-basis: 100%;
+        flex-basis: 15rem;
     }
     .logos {
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .logo-image-item {
         margin: 1rem 3rem;
     }
-    .portfolio-image-container {
-        justify-content: center;
+    .comments-box-items {
+        flex-basis: 100%;
+    }
+    .portfolio-image-item {
+        flex-basis: 100%;
     }
 }
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
+    }
+    .footer-bottom {
+        display: block;
+        text-align: center;
+    }
+    .footer-bottom-item {
+        line-height: 1.5rem;
     }
 }

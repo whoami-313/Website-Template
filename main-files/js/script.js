@@ -3,11 +3,11 @@ const menuBar = document.querySelector(".menu");
 
 barMenu.addEventListener("click", function () {
     if (barMenu.firstElementChild.classList.contains("fa-bars")) {
-        barMenu.firstElementChild.setAttribute("class", "svg-inline--fa fa-xmark");
+        barMenu.firstElementChild.setAttribute("class", "fa-solid fa-times");
         menuBar.style.left = 0;
     }
     else {
-        barMenu.firstElementChild.setAttribute("class", "svg-inline--fa fa-bars");
+        barMenu.firstElementChild.setAttribute("class", "fa-solid fa-bars");
         menuBar.style.left = "-30rem";
     }
 });
