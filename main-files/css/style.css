@@ -279,9 +279,7 @@
     border-radius: 0.3rem;
 }
 .footer-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     outline: none;
     border: none;
     padding: 0.5rem;
